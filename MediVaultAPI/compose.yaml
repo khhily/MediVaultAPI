@@ -1,0 +1,12 @@
+﻿services:
+  medivaultapi:
+    image: medivaultapi
+    build:
+      context: .
+      dockerfile: MediVaultAPI/Dockerfile
+
+  medivaultaotapi:
+    image: medivaultaotapi
+    build:
+      context: .
+      dockerfile: MediVaultAotApi/Dockerfile
